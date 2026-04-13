@@ -1,0 +1,65 @@
+{
+    "title": "Vendors",
+    "subtitle": "Manage suppliers and distributors",
+    "search": "Search vendors by name or phone...",
+    "statusFilter": {
+        "all": "All Statuses",
+        "active": "Active",
+        "archived": "Archived"
+    },
+    "table": {
+        "name": "Name",
+        "phone": "Phone",
+        "status": "Status",
+        "createdAt": "Added On",
+        "actions": "Actions"
+    },
+    "actions": {
+        "create": "Add Vendor",
+        "edit": "Edit",
+        "archive": "Archive",
+        "restore": "Restore"
+    },
+    "messages": {
+        "permissionDenied": "You do not have permission to modify vendors."
+    },
+    "createDialog": {
+        "title": "Add New Vendor",
+        "name": "Vendor Name",
+        "namePlaceholder": "e.g., Acme Corp",
+        "phone": "Phone Number",
+        "phonePlaceholder": "e.g., +1 555-0199",
+        "notes": "Notes",
+        "notesPlaceholder": "Optional contact details or address...",
+        "cancel": "Cancel",
+        "save": "Save Vendor",
+        "success": "Vendor added successfully",
+        "error": "Failed to add vendor"
+    },
+    "editDialog": {
+        "title": "Edit Vendor",
+        "save": "Save Changes",
+        "success": "Vendor updated successfully",
+        "error": "Failed to update vendor"
+    },
+    "archiveDialog": {
+        "title": "Archive Vendor",
+        "description": "Are you sure you want to archive {{name}}? They will be hidden from new purchase menus but kept for historical records.",
+        "cancel": "Keep Active",
+        "confirm": "Archive Vendor",
+        "success": "Vendor archived",
+        "error": "Failed to archive vendor"
+    },
+    "restoreDialog": {
+        "title": "Restore Vendor",
+        "description": "Are you sure you want to restore {{name}}? They will appear in purchase menus again.",
+        "cancel": "Cancel",
+        "confirm": "Restore Vendor",
+        "success": "Vendor restored",
+        "error": "Failed to restore vendor"
+    },
+    "empty": {
+        "title": "No vendors found",
+        "description": "Get started by adding your first vendor."
+    }
+}

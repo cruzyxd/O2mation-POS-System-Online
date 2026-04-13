@@ -1,0 +1,88 @@
+{
+  "header": {
+    "section": "إعدادات النظام",
+    "title": "الإعدادات",
+    "subtitle": "أدر تفضيلات مساحة العمل وتكوين النظام الخاص بك."
+  },
+  "tabs": {
+    "preferences": "التفضيلات",
+    "manageUsers": "إدارة المستخدمين"
+  },
+  "preferences": {
+    "title": "التفضيلات",
+    "description": "اختر اللغة المفضلة لواجهة النظام.",
+    "languagesTitle": "اللغات",
+    "languagesDescription": "اختر اللغة المفضلة لواجهة النظام.",
+    "languageLabel": "لغة الواجهة",
+    "languageHelp": "يتم تطبيق التغييرات فورًا ويتم حفظها لزيارتك القادمة.",
+    "languagePlaceholder": "اختر اللغة",
+    "appearanceTitle": "المظهر",
+    "appearanceDescription": "خصص مظهر المنصة على شاشتك.",
+    "lightMode": "الوضع الفاتح",
+    "lightModeDesc": "مظهر نظيف ومشرق",
+    "darkMode": "الوضع الداكن",
+    "darkModeDesc": "مريح للعين",
+    "accessibilityTitle": "إمكانية الوصول",
+    "accessibilityDescription": "حسّن الواجهة لتكون أوضح وأسهل قراءة.",
+    "fontSizeLabel": "حجم الخط",
+    "fontSizePlaceholder": "اختر حجم الخط",
+    "checkoutTitle": "نقطة البيع",
+    "checkoutDescription": "اضبط اختصار الإكمال وسلوك الدفع في شاشة الدفع.",
+    "completionKeyLabel": "اختصار الإكمال",
+    "completionKeys": {
+      "shift": "Shift",
+      "enter": "Enter",
+      "ctrlEnter": "Ctrl + Enter"
+    },
+    "manualTenderedLabel": "إلزام الكاشير بإدخال المبلغ المستلم",
+    "manualTenderedDescription": "عند إيقاف هذا الخيار، يتم الإكمال على النقد المطابق تلقائيا (المستلم = الإجمالي).",
+    "fontSizes": {
+      "small": "صغير (13px)",
+      "default": "افتراضي (14px)",
+      "large": "كبير (15px)",
+      "xLarge": "(16px)",
+      "xxLarge": "(17px)",
+      "xxxLarge": "(18px)"
+    },
+    "languages": {
+      "english": "الإنجليزية",
+      "arabic": "العربية"
+    }
+  },
+  "users": {
+    "title": "إدارة المستخدمين",
+    "description": "إنشاء، تعديل، وإدارة مستخدمي النظام. التحكم في أذونات الوصول ومراقبة حالة الحساب.",
+    "createButton": "إنشاء مستخدم",
+    "createNewUser": "إنشاء مستخدم جديد",
+    "username": "اسم المستخدم",
+    "password": "كلمة المرور",
+    "role": "الدور",
+    "managerRole": "مدير",
+    "managerDesc": "صلاحية كاملة لإنشاء المستخدمين",
+    "cashierRole": "كاشير",
+    "cashierDesc": "يقتصر على عمليات البيع",
+    "cancel": "إلغاء",
+    "saveChanges": "حفظ التغييرات",
+    "newPassword": "كلمة المرور الجديدة (اختياري)",
+    "leaveBlank": "اتركه فارغاً للاحتفاظ بالحالي",
+    "confirmDeletion": "تأكيد الحذف",
+    "enterPasswordToDelete": "أدخل كلمة المرور لحذف",
+    "yourPassword": "كلمة المرور الخاصة بك",
+    "confirmDeleteButton": "تأكيد الحذف",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "created": "تاريخ الإنشاء",
+    "owner": "المالك",
+    "noUsersFound": "لم يتم العثور على مستخدمين",
+    "createFirstUser": "قم بإنشاء المستخدم الأول للبدء",
+    "cannotUndo": "لا يمكن التراجع عن هذا الإجراء",
+    "enterPasswordToConfirm": "أدخل كلمة المرور لتأكيد حذف المستخدم:",
+    "deleteUserButton": "حذف مستخدم",
+    "accessDenied": "تم رفض الوصول",
+    "onlyOwnersManagers": "يمكن للملاك والمديرين فقط الوصول إلى هذه الصفحة.",
+    "currentlyLoggedIn": "مسجل الدخول حالياً"
+  },
+  "sidebar": {
+    "configuration": "إعدادات التكوين"
+  }
+}

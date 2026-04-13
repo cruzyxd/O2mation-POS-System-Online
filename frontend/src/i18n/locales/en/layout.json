@@ -1,0 +1,38 @@
+{
+  "brand": {
+    "name": "O2mation",
+    "suffix": "Market"
+  },
+  "sidebar": {
+    "mainMenu": "Main Menu",
+    "inventory": "Inventory",
+    "categories": "Categories",
+    "vendors": "Vendors",
+    "checkout": "Cashier",
+    "history": "Sales History",
+    "settings": "Settings"
+  },
+  "topbar": {
+    "notificationsAria": "Notifications",
+    "guestUser": "Guest",
+    "menu": {
+      "accountAria": "Account menu",
+      "logout": "Log out",
+      "loggingOut": "Logging out...",
+      "logoutBlockedCart": "Clear the cashier cart before logging out.",
+      "logoutCloseFailed": "Could not close register before logout."
+    },
+    "role": {
+      "ownerAdmin": "Owner",
+      "manager": "Manager",
+      "cashier": "Cashier"
+    }
+  },
+  "common": {
+    "loadingSession": "Loading session..."
+  },
+  "pagination": {
+    "of": "of",
+    "page": "Page"
+  }
+}

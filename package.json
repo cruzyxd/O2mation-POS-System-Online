@@ -1,0 +1,9 @@
+{
+  "name": "o2-supermarket-system",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "desktop"
+  ]
+}

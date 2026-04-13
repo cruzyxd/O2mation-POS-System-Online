@@ -1,0 +1,82 @@
+{
+  "checkout": {
+    "title": "Current Sale",
+    "subtitle": "Scanner-first checkout",
+    "scan": {
+      "start": "Start Scanning",
+      "active": "Scanning Active",
+      "hint": "Scan barcode/SKU to add items quickly",
+      "manualSearch": "Search items...",
+      "noResults": "No items found",
+      "searching": "Searching...",
+      "resultLimitLabel": "Relevant items",
+      "resultLimitValue": "{{count}} shown",
+      "resultLimitHint": "Showing {{shown}} of {{total}} matches",
+      "resultLimitAriaLabel": "Relevant items to show"
+    },
+    "table": {
+      "itemName": "ITEM NAME",
+      "price": "PRICE",
+      "quantity": "QUANTITY",
+      "subtotal": "SUBTOTAL",
+      "action": "ACTION",
+      "empty": "Cart is empty"
+    },
+    "keyboard": {
+      "title": "Keyboard",
+      "navigation": "Up/Down move selection",
+      "quantity": "Left/Right change quantity",
+      "remove": "Delete removes selected item",
+      "complete": "Completion key: {{keyLabel}}"
+    }
+  },
+  "summary": {
+    "title": "Transaction Summary",
+    "subtotal": "Subtotal",
+    "tax": "Tax ({{rate}}%)",
+    "total": "Total Amount",
+    "amountTendered": "Amount Tendered",
+    "change": "Change to Give",
+    "complete": "Complete Transaction",
+    "autoTenderedHint": "Auto exact cash is enabled. Completion uses total amount.",
+    "manualTenderedHint": "Manual tendered mode is enabled. Enter enough cash to continue."
+  },
+  "register": {
+    "title": "Register Session",
+    "statusOpen": "OPEN",
+    "statusClosed": "CLOSED",
+    "expectedCash": "Expected Cash",
+    "openedAt": "Opened At",
+    "openHint": "No active register session. Open a shift to continue selling.",
+    "openShift": "Open Register",
+    "closeShift": "Close Register",
+    "closeEnabledHint": "You can close this register once cash is counted.",
+    "closeDisabledHint": "Empty the cart before closing this register."
+  },
+  "closeModal": {
+    "title": "Close Register",
+    "description": "Confirm counted cash to close the current register session.",
+    "expectedCash": "Expected Cash",
+    "countedCash": "Counted Cash",
+    "variance": "Variance",
+    "cancel": "Cancel",
+    "confirm": "Close Register"
+  },
+  "messages": {
+    "registerOpened": "Register session opened",
+    "registerActive": "Using active register session",
+    "registerError": "Could not open register session",
+    "registerClosed": "Register session closed",
+    "registerClosedDescription": "Register closed with variance {{variance}}",
+    "registerCloseRequiresEmptyCart": "Cart must be empty before closing the register",
+    "registerCloseFailed": "Could not close register session",
+    "scanAdded": "Item added: {{name}}",
+    "scanFailed": "Scan failed",
+    "sessionMissing": "Register session is not available",
+    "cartEmpty": "Add at least one item to complete this sale",
+    "manualTenderedRequired": "Amount tendered must be at least total",
+    "completeSuccessTitle": "Transaction completed",
+    "completeSuccessDescription": "Receipt {{receiptNumber}} created",
+    "completeFailed": "Could not complete transaction"
+  }
+}

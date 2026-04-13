@@ -1,0 +1,346 @@
+/*
+ * O2mation POS — Global Design System
+ * Tailwind CSS v4 entry point with all design tokens as CSS custom properties.
+ * Replaces the former Chakra UI theme system.
+ */
+
+@import "tailwindcss";
+
+/* Make dark: utilities follow next-themes class strategy, not OS media query. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ── Oxygen Brand Palette ────────────────────────────────────────── */
+@theme {
+    --color-oxygen-50: #e0fff0;
+    --color-oxygen-100: #b3ffdb;
+    --color-oxygen-200: #80ffc5;
+    --color-oxygen-300: #4dffb0;
+    --color-oxygen-400: #1aff9a;
+    --color-oxygen-500: #00E074;
+    --color-oxygen-600: #00b35d;
+    --color-oxygen-700: #008646;
+    --color-oxygen-800: #005a2f;
+    --color-oxygen-900: #002d17;
+    --color-oxygen-950: #00170c;
+
+    --color-charcoal-50: #f0f1f2;
+    --color-charcoal-100: #d9dbde;
+    --color-charcoal-200: #9aa0a8;
+    --color-charcoal-300: #6b727b;
+    --color-charcoal-400: #4a5058;
+    --color-charcoal-500: #33383e;
+    --color-charcoal-600: #2a2e33;
+    --color-charcoal-700: #22262b;
+    --color-charcoal-800: #1a1d21;
+    --color-charcoal-900: #141618;
+    --color-charcoal-950: #0e1012;
+
+    /* Font families */
+    --font-heading: "Outfit", "IBM Plex Sans Arabic", sans-serif;
+    --font-body: "Plus Jakarta Sans", "IBM Plex Sans Arabic", sans-serif;
+}
+
+/* ── Light Mode Semantic Tokens ──────────────────────────────────── */
+:root {
+    /* Backgrounds */
+    --bg-page: #f9fafb;
+    /* gray.50 */
+    --bg-surface: #ffffff;
+    --bg-muted: #f9fafb;
+    /* gray.50 */
+    --bg-subtle: #f3f4f6;
+    /* gray.100 */
+
+    /* Foregrounds */
+    --fg-default: #111827;
+    /* gray.900 */
+    --fg-muted: #6b7280;
+    /* gray.500 */
+    --fg-subtle: #9ca3af;
+    /* gray.400 */
+    --fg-heading: #111827;
+    /* gray.900 */
+
+    /* Borders */
+    --border-default: #e5e7eb;
+    /* gray.200 */
+    --border-muted: #f3f4f6;
+    /* gray.100 */
+
+    /* Inputs */
+    --input-bg: #f9fafb;
+    /* gray.50 */
+    --input-border: #e5e7eb;
+    /* gray.200 */
+
+    /* Nav / Sidebar */
+    --nav-active-bg: var(--color-oxygen-50);
+    --nav-active-color: var(--color-oxygen-600);
+    --nav-hover-bg: #f9fafb;
+    /* gray.50 */
+    --nav-inactive-color: #6b7280;
+    /* gray.500 */
+    --nav-section-label: #9ca3af;
+    /* gray.400 */
+
+    /* Table */
+    --table-header-bg: #f9fafb;
+    /* gray.50 */
+    --table-row-even: #ffffff;
+    --table-row-odd: #ecfdf5;
+    /* oxygen.50 */
+    --table-row-selected: #d1fae5;
+    /* oxygen.100 */
+    --table-row-selected-hover: #a7f3d0;
+    /* oxygen.200 */
+    --table-row-hover: #d1fae5;
+    /* oxygen.100 */
+
+    color-scheme: light;
+}
+
+/* ── Dark Mode Semantic Tokens ───────────────────────────────────── */
+.dark {
+    /* Backgrounds */
+    --bg-page: #1a1d21;
+    /* charcoal.800 */
+    --bg-surface: #2a2e33;
+    /* charcoal.600 */
+    --bg-muted: #22262b;
+    /* charcoal.700 */
+    --bg-subtle: #33383e;
+    /* charcoal.500 */
+
+    /* Foregrounds */
+    --fg-default: #f0f1f2;
+    /* charcoal.50 */
+    --fg-muted: #9aa0a8;
+    /* charcoal.200 */
+    --fg-subtle: #6b727b;
+    /* charcoal.300 */
+    --fg-heading: #d9dbde;
+    /* charcoal.100 */
+
+    /* Borders */
+    --border-default: #4a5058;
+    /* charcoal.400 */
+    --border-muted: #33383e;
+    /* charcoal.500 */
+
+    /* Inputs */
+    --input-bg: #22262b;
+    /* charcoal.700 */
+    --input-border: #4a5058;
+    /* charcoal.400 */
+
+    /* Nav / Sidebar */
+    --nav-active-bg: var(--color-oxygen-900);
+    --nav-active-color: var(--color-oxygen-400);
+    --nav-hover-bg: #33383e;
+    /* charcoal.500 */
+    --nav-inactive-color: #9aa0a8;
+    /* charcoal.200 */
+    --nav-section-label: #6b727b;
+    /* charcoal.300 */
+
+    /* Table */
+    --table-header-bg: #22262b;
+    /* charcoal.700 */
+    --table-row-even: #2a2e33;
+    /* charcoal.600 */
+    --table-row-odd: #22262b;
+    /* charcoal.700 */
+    --table-row-selected: #00170c;
+    /* oxygen.950 */
+    --table-row-selected-hover: #002d17;
+    /* oxygen.900 */
+    --table-row-hover: #33383e;
+    /* charcoal.500 */
+
+    color-scheme: dark;
+}
+
+/* ── Base Styles ─────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    border-color: var(--border-default);
+}
+
+html {
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background-color: var(--bg-page);
+    color: var(--fg-default);
+    margin: 0;
+}
+
+/* ── Native Table Styles ─────────────────────────────────────────── */
+.native-table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.native-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.native-table th {
+    padding: 0.75rem 1rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 0.025em;
+    color: var(--fg-muted);
+    background-color: var(--table-header-bg);
+    border-bottom: 1px solid var(--border-default);
+}
+
+.native-table td {
+    padding: 0.75rem 1rem;
+    vertical-align: middle;
+}
+
+.native-table tr {
+    transition: background-color 0.1s ease-in-out;
+}
+
+.native-table tr.row-even {
+    background-color: var(--table-row-even);
+}
+
+.native-table tr.row-odd {
+    background-color: var(--table-row-odd);
+}
+
+.native-table tr.row-selected {
+    background-color: var(--table-row-selected);
+}
+
+.native-table tr.native-tr:hover {
+    background-color: var(--table-row-hover);
+}
+
+.native-table tr.row-selected:hover {
+    background-color: var(--table-row-selected-hover);
+}
+
+.native-table tr:last-child {
+    border-bottom: none !important;
+}
+
+/* ── Animations ──────────────────────────────────────────────────── */
+@keyframes slide-in-bottom {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-right {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+[dir="rtl"] .animate-slide-in-right {
+    animation-name: slide-in-left;
+}
+
+@keyframes slide-in-left {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes dropdown-in {
+    from {
+        opacity: 0;
+        transform: translateY(-8px) scale(0.98);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes toast-in {
+    from {
+        transform: translateX(110%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animate-slide-in-bottom {
+    animation: slide-in-bottom 0.3s ease-out;
+}
+
+.animate-fade-in {
+    animation: fade-in 0.15s ease-out;
+}
+
+.animate-slide-in-right {
+    animation: slide-in-right 0.25s ease-out;
+}
+
+.animate-toast-in {
+    animation: toast-in 0.3s ease-out;
+}
+
+.animate-dropdown-in {
+    animation: dropdown-in 0.2s ease-out;
+}
+
+/* ── Scrollbar ───────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border-default);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--fg-subtle);
+}

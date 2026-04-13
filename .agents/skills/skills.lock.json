@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "skills": {
+    "postgresql-code-review": {
+      "name": "postgresql-code-review",
+      "description": "PostgreSQL-specific code review assistant focusing on PostgreSQL best practices, anti-patterns, and unique quality standards. Covers JSONB operations, array usage, custom types, schema design, function optimization, and PostgreSQL-exclusive security features like Row Level Security (RLS).",
+      "source_url": "https://github.com/github/awesome-copilot/tree/main/skills/postgresql-code-review",
+      "installed_at": "2026-03-10T16:10:22.563582+00:00",
+      "updated_at": "2026-03-10T16:10:22.563582+00:00",
+      "version": null,
+      "files_hash": "sha256:1167ec9449aa866e16bc7449e05ab4d391cdce95a0b0c5e1155b793160471eb5",
+      "file_count": 1
+    },
+    "adversarial-coach": {
+      "name": "adversarial-coach",
+      "description": "Adversarial implementation review based on Block's g3 dialectical autocoding research. Use when validating implementation completeness against requirements with fresh objectivity.",
+      "source_url": "https://github.com/openclaw/skills/tree/main/skills/killerapp/adversarial-coach",
+      "installed_at": "2026-03-10T16:12:11.166686+00:00",
+      "updated_at": "2026-03-10T16:12:11.166686+00:00",
+      "version": null,
+      "files_hash": "sha256:f54f29b5fab74d4c7a3554f48a4a9fb4ff36eae0ed37a42d77c0894c06f98610",
+      "file_count": 2
+    },
+    "supabase-admin": {
+      "name": "supabase-admin",
+      "description": "Supabase administration, RLS policies, migrations, and schema design. Use for database architecture, Row Level Security, performance tuning, auth integration. Activate on \"Supabase\", \"RLS\",",
+      "source_url": "https://github.com/curiositech/some_claude_skills/tree/main/.claude/skills/supabase-admin",
+      "installed_at": "2026-03-10T16:12:14.152691+00:00",
+      "updated_at": "2026-03-10T16:12:14.152691+00:00",
+      "version": null,
+      "files_hash": "sha256:2bdf7c7990cb6cd5ab4f5bb4863629a225827c892e0de769674f9df77a6a1341",
+      "file_count": 3
+    }
+  }
+}

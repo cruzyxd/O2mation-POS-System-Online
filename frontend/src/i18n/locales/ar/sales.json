@@ -1,0 +1,82 @@
+{
+  "checkout": {
+    "title": "العملية الحالية",
+    "subtitle": "دفع سريع مع الماسح",
+    "scan": {
+      "start": "بدء المسح",
+      "active": "المسح مفعل",
+      "hint": "امسح الباركود أو SKU لإضافة المنتجات بسرعة",
+      "manualSearch": "ابحث عن أصناف...",
+      "noResults": "لم يتم العثور على أي عناصر",
+      "searching": "جاري البحث...",
+      "resultLimitLabel": "العناصر الأنسب",
+      "resultLimitValue": "{{count}} معروض",
+      "resultLimitHint": "عرض {{shown}} من أصل {{total}} نتيجة",
+      "resultLimitAriaLabel": "عدد العناصر الأنسب المعروضة"
+    },
+    "table": {
+      "itemName": "اسم الصنف",
+      "price": "السعر",
+      "quantity": "الكمية",
+      "subtotal": "الإجمالي الفرعي",
+      "action": "إجراء",
+      "empty": "السلة فارغة"
+    },
+    "keyboard": {
+      "title": "لوحة المفاتيح",
+      "navigation": "السهمان أعلى/أسفل لتحريك التحديد",
+      "quantity": "السهمان يمين/يسار لتغيير الكمية",
+      "remove": "زر Delete لحذف الصنف المحدد",
+      "complete": "زر الإكمال: {{keyLabel}}"
+    }
+  },
+  "summary": {
+    "title": "ملخص العملية",
+    "subtotal": "الإجمالي الفرعي",
+    "tax": "الضريبة ({{rate}}%)",
+    "total": "المبلغ الإجمالي",
+    "amountTendered": "المبلغ المستلم",
+    "change": "الباقي",
+    "complete": "إكمال العملية",
+    "autoTenderedHint": "وضع النقد المطابق مفعل. الإكمال يستخدم إجمالي الفاتورة.",
+    "manualTenderedHint": "وضع الإدخال اليدوي مفعل. أدخل مبلغا كافيا للمتابعة."
+  },
+  "register": {
+    "title": "جلسة الصندوق",
+    "statusOpen": "مفتوح",
+    "statusClosed": "مغلق",
+    "expectedCash": "النقد المتوقع",
+    "openedAt": "وقت الفتح",
+    "openHint": "لا توجد جلسة صندوق نشطة. افتح وردية لمتابعة البيع.",
+    "openShift": "فتح الصندوق",
+    "closeShift": "إغلاق الصندوق",
+    "closeEnabledHint": "يمكنك إغلاق الصندوق بعد عد النقد.",
+    "closeDisabledHint": "افرغ السلة قبل إغلاق الصندوق."
+  },
+  "closeModal": {
+    "title": "إغلاق الصندوق",
+    "description": "أكد قيمة النقد المعدود لإغلاق جلسة الصندوق الحالية.",
+    "expectedCash": "النقد المتوقع",
+    "countedCash": "النقد المعدود",
+    "variance": "الفارق",
+    "cancel": "إلغاء",
+    "confirm": "إغلاق الصندوق"
+  },
+  "messages": {
+    "registerOpened": "تم فتح جلسة الصندوق",
+    "registerActive": "تم استخدام جلسة صندوق مفتوحة",
+    "registerError": "تعذر فتح جلسة الصندوق",
+    "registerClosed": "تم إغلاق جلسة الصندوق",
+    "registerClosedDescription": "تم إغلاق الصندوق بفارق {{variance}}",
+    "registerCloseRequiresEmptyCart": "يجب أن تكون السلة فارغة قبل إغلاق الصندوق",
+    "registerCloseFailed": "تعذر إغلاق جلسة الصندوق",
+    "scanAdded": "تمت إضافة الصنف: {{name}}",
+    "scanFailed": "فشل المسح",
+    "sessionMissing": "جلسة الصندوق غير متاحة",
+    "cartEmpty": "أضف صنفا واحدا على الأقل لإكمال العملية",
+    "manualTenderedRequired": "يجب أن يكون المبلغ المستلم أكبر من أو يساوي الإجمالي",
+    "completeSuccessTitle": "تمت العملية بنجاح",
+    "completeSuccessDescription": "تم إنشاء الإيصال {{receiptNumber}}",
+    "completeFailed": "تعذر إكمال العملية"
+  }
+}

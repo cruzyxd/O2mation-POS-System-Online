@@ -1,0 +1,86 @@
+{
+  "header": {
+    "section": "System Settings",
+    "title": "Settings",
+    "subtitle": "Manage your workspace preferences and system configuration."
+  },
+  "tabs": {
+    "preferences": "Preferences",
+    "manageUsers": "Manage Users"
+  },
+  "preferences": {
+    "title": "Preferences",
+    "description": "Choose your preferred language for the interface.",
+    "languagesTitle": "Languages",
+    "languagesDescription": "Set your preferred display language for the interface.",
+    "languageLabel": "Interface Language",
+    "languageHelp": "Changes apply instantly and are saved for your next visit.",
+    "languagePlaceholder": "Select language",
+    "appearanceTitle": "Appearance",
+    "appearanceDescription": "Customize how the platform looks on your screen.",
+    "lightMode": "Light Mode",
+    "lightModeDesc": "Clean and bright view",
+    "darkMode": "Dark Mode",
+    "darkModeDesc": "Easy on the eyes",
+    "accessibilityTitle": "Accessibility",
+    "accessibilityDescription": "Optimize the interface for better readability and reach.",
+    "fontSizeLabel": "Font Size",
+    "fontSizePlaceholder": "Select font size",
+    "checkoutTitle": "Checkout",
+    "checkoutDescription": "Configure keyboard completion and payment behavior for POS checkout.",
+    "completionKeyLabel": "Completion Shortcut",
+    "completionKeyRecord": "Record New Key",
+    "completionKeyRecording": "Press any key...",
+    "completionKeyReset": "Reset to Default",
+    "manualTenderedLabel": "Require cashier to enter tendered amount",
+    "manualTenderedDescription": "When off, completing a sale auto-uses exact cash (tendered = total).",
+    "fontSizes": {
+      "small": "Small (13px)",
+      "default": "Default (14px)",
+      "large": "Large (15px)",
+      "xLarge": "(16px)",
+      "xxLarge": "(17px)",
+      "xxxLarge": "(18px)"
+    },
+    "languages": {
+      "english": "English (US)",
+      "arabic": "Arabic"
+    }
+  },
+  "users": {
+    "title": "User Management",
+    "description": "Create, edit, and manage system users. Control access permissions and monitor account status.",
+    "createButton": "Create User",
+    "createNewUser": "Create New User",
+    "username": "Username",
+    "password": "Password",
+    "role": "Role",
+    "managerRole": "Manager",
+    "managerDesc": "Full access to create users",
+    "cashierRole": "Cashier",
+    "cashierDesc": "Limited to POS operations",
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes",
+    "newPassword": "New Password (optional)",
+    "leaveBlank": "Leave blank to keep current",
+    "confirmDeletion": "Confirm Deletion",
+    "enterPasswordToDelete": "Enter your password to delete",
+    "yourPassword": "Your password",
+    "confirmDeleteButton": "Confirm Delete",
+    "active": "Active",
+    "inactive": "Inactive",
+    "created": "Created",
+    "owner": "Owner",
+    "noUsersFound": "No users found",
+    "createFirstUser": "Create your first user to get started",
+    "cannotUndo": "This action cannot be undone",
+    "enterPasswordToConfirm": "Enter your password to confirm deletion of user:",
+    "deleteUserButton": "Delete User",
+    "accessDenied": "Access Denied",
+    "onlyOwnersManagers": "Only owners and managers can access this page.",
+    "currentlyLoggedIn": "Currently Logged In"
+  },
+  "sidebar": {
+    "configuration": "CONFIGURATION"
+  }
+}

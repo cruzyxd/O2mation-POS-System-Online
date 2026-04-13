@@ -1,0 +1,290 @@
+{
+  "header": {
+    "section": "Logistics Dashboard",
+    "title": "Inventory",
+    "titleSuffix": "Status",
+    "addProduct": "Add Product"
+  },
+  "kpi": {
+    "totalSkus": "Total SKUs",
+    "totalValue": "Total Value",
+    "lowStockAlerts": "Low Stock Alerts",
+    "outOfStock": "Out of Stock",
+    "valueMeta": "$24k avg",
+    "alertsMeta": "Critical",
+    "outOfStockMeta": "8 SKU"
+  },
+  "filters": {
+    "searchPlaceholder": "Filter by name, supplier, or barcode...",
+    "categoryAll": "Category: All",
+    "supplierAll": "Supplier: All",
+    "statusActive": "Status: Active",
+    "filterAria": "Filter",
+    "exportAria": "Export"
+  },
+  "table": {
+    "productSku": "Product & SKU",
+    "category": "Category",
+    "stockQty": "Stock Qty",
+    "status": "Status",
+    "priceCost": "Price / Cost",
+    "sku": "SKU",
+    "batch": "Batch",
+    "cost": "Cost"
+  },
+  "bulk": {
+    "itemsSelected": "Items Selected",
+    "add": "Add",
+    "removeStock": "Remove",
+    "edit": "Edit",
+    "ship": "Ship",
+    "label": "Label",
+    "audit": "Audit",
+    "delete": "Delete",
+    "closeAria": "Clear selection"
+  },
+  "statusValues": {
+    "inStock": "In Stock",
+    "lowStock": "Low Stock",
+    "outOfStock": "Out of Stock"
+  },
+  "addProduct": {
+    "title": "Add Product",
+    "description": "Create a new inventory item for stock tracking.",
+    "editTitle": "Edit Product",
+    "editDescription": "Update the selected inventory item details.",
+    "sections": {
+      "basic": "Basic Details",
+      "inventory": "Inventory",
+      "pricing": "Pricing"
+    },
+    "fields": {
+      "name": {
+        "label": "Name",
+        "placeholder": "e.g. Organic Bananas"
+      },
+      "category": {
+        "label": "Category",
+        "placeholder": "Select category"
+      },
+      "barcode": {
+        "label": "Barcode",
+        "placeholder": "Scan or enter barcode"
+      },
+      "sku": {
+        "label": "SKU",
+        "placeholder": "Auto-generated SKU",
+        "helper": "You can edit the generated SKU before saving."
+      },
+      "startingAmount": {
+        "label": "Starting Amount",
+        "placeholder": "0"
+      },
+      "unit": {
+        "label": "Unit",
+        "placeholder": "Select unit"
+      },
+      "costPrice": {
+        "label": "Cost Price",
+        "placeholder": "0.00"
+      },
+      "sellingPrice": {
+        "label": "Selling Price",
+        "placeholder": "0.00"
+      },
+      "taxEnabled": {
+        "label": "VAT / Tax",
+        "helper": "Enable to preview tax-inclusive pricing.",
+        "caption": "Apply tax percentage"
+      },
+      "taxPercentage": {
+        "label": "Tax Percentage",
+        "placeholder": "0"
+      },
+      "totalSellingPrice": {
+        "label": "Total Selling Price",
+        "estimateHint": "Estimate only. Backend calculation remains final."
+      }
+    },
+    "options": {
+      "category": {
+        "freshProduce": "Fresh Produce",
+        "dairyEggs": "Dairy & Eggs",
+        "beverages": "Beverages",
+        "frozenFoods": "Frozen Foods",
+        "pantry": "Pantry",
+        "meatSeafood": "Meat & Seafood"
+      },
+      "unit": {
+        "units": "Units",
+        "lbs": "LBS",
+        "kgs": "KGS",
+        "liters": "Liters"
+      }
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "submit": "Save Product",
+      "update": "Update Product"
+    },
+    "messages": {
+      "createSuccessTitle": "Product created",
+      "createSuccessDescription": "Product created successfully.",
+      "updateSuccessTitle": "Product updated",
+      "updateSuccessDescription": "Product updated successfully."
+    },
+    "validation": {
+      "nameRequired": "Product name is required.",
+      "categoryRequired": "Category is required.",
+      "startingAmountInvalid": "Starting amount must be 0 or greater.",
+      "costPriceInvalid": "Cost price must be 0 or greater.",
+      "sellingPriceInvalid": "Selling price must be 0 or greater.",
+      "taxPercentageInvalid": "Tax percentage must be between 0 and 100."
+    }
+  },
+  "addStock": {
+    "title": "Add Stock",
+    "description": "Record incoming quantity and latest purchase price.",
+    "currentStock": "Current Stock",
+    "noSelection": "No inventory item selected.",
+    "fields": {
+      "quantityAdded": {
+        "label": "Quantity To Add",
+        "placeholder": "0"
+      },
+      "purchasePrice": {
+        "label": "Purchase Price",
+        "placeholder": "0.00"
+      }
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "submit": "Record Stock"
+    },
+    "validation": {
+      "quantityRequired": "Quantity must be greater than 0.",
+      "purchasePriceInvalid": "Purchase price must be 0 or greater."
+    },
+    "messages": {
+      "successTitle": "Stock updated",
+      "successDescription": "Stock was added successfully."
+    }
+  },
+  "removeStock": {
+    "title": "Remove Stock",
+    "description": "Record outgoing quantity from current stock.",
+    "currentStock": "Current Stock",
+    "noSelection": "No inventory item selected.",
+    "fields": {
+      "quantityRemoved": {
+        "label": "Quantity To Remove",
+        "placeholder": "0"
+      }
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "submit": "Remove Stock"
+    },
+    "validation": {
+      "quantityRequired": "Quantity must be greater than 0.",
+      "quantityExceedsStock": "Quantity cannot exceed current stock."
+    },
+    "messages": {
+      "successTitle": "Stock updated",
+      "successDescription": "Stock was removed successfully."
+    }
+  },
+  "categories": {
+    "header": {
+      "title": "Categories",
+      "subtitle": "Manage category structure and archived groups."
+    },
+    "actions": {
+      "addCategory": "Add Category",
+      "edit": "Edit",
+      "archive": "Archive",
+      "restore": "Restore",
+      "inspect": "Inspect"
+    },
+    "tabs": {
+      "active": "Active Categories",
+      "archived": "Archived"
+    },
+    "stats": {
+      "activeCount": "Total Active",
+      "archivedCount": "Archived Sets"
+    },
+    "filters": {
+      "searchPlaceholder": "Search categories...",
+      "allParents": "All Parents"
+    },
+    "table": {
+      "name": "Category Name",
+      "code": "Code",
+      "parent": "Parent",
+      "products": "Products",
+      "updatedAt": "Updated",
+      "archivedAt": "Archived",
+      "productsCount": "{{count}} Items"
+    },
+    "drawer": {
+      "addTitle": "Add Category",
+      "editTitle": "Edit Category",
+      "description": "Configure category details and hierarchy.",
+      "cancel": "Cancel",
+      "save": "Save Category",
+      "fields": {
+        "name": "Name",
+        "code": "Code",
+        "parent": "Parent Category"
+      },
+      "validation": {
+        "nameRequired": "Name is required.",
+        "codeRequired": "Code is required."
+      }
+    },
+    "modals": {
+      "archiveTitle": "Archive Category",
+      "archiveDesc": "Choose how to handle the active products in this category.",
+      "parentBlockedHint": "This category has {{count}} active subcategories. Archive those subcategories first before archiving the parent category.",
+      "optUnassigned": "Move products to Unassigned",
+      "optArchiveAll": "Archive category and all products together",
+      "cancel": "Cancel",
+      "confirmArchive": "Confirm Archive",
+      "restoreTitle": "Restore Category",
+      "restoreDesc": "This category and its linked products will be restored to active inventory.",
+      "confirmRestore": "Restore"
+    },
+    "messages": {
+      "fetchError": "Could not load categories.",
+      "saveSuccess": "Category saved successfully.",
+      "saveError": "Could not save category.",
+      "archiveSuccess": "Category archived.",
+      "archiveBlockedBySubcategories": "This category cannot be archived while it still has active subcategories.",
+      "archiveError": "Could not archive category.",
+      "restoreSuccess": "Category restored.",
+      "restoreError": "Could not restore category.",
+      "permissionDenied": "You do not have permission to modify categories."
+    },
+    "card": {
+      "edit": "Edit",
+      "archive": "Archive",
+      "items": "{{count}} Items",
+      "subcategories": "{{count}} Subcategories",
+      "more": "+{{count}} More"
+    },
+    "sidebar": {
+      "view": "View"
+    },
+    "drillDown": {
+      "subcategories": "Subcategories",
+      "noSubs": "No subcategories found."
+    },
+    "main": {
+      "noCategories": "No active categories found."
+    },
+    "archived": {
+      "noArchived": "No archived categories found."
+    }
+  }
+}

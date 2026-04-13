@@ -1,0 +1,38 @@
+{
+  "brand": {
+    "name": "O2mation",
+    "suffix": "ماركت"
+  },
+  "sidebar": {
+    "mainMenu": "القائمة الرئيسية",
+    "inventory": "المخزون",
+    "categories": "الأقسام",
+    "vendors": "الموردين",
+    "checkout": "الكاشير",
+    "history": "سجل المبيعات",
+    "settings": "الإعدادات"
+  },
+  "topbar": {
+    "notificationsAria": "الإشعارات",
+    "guestUser": "زائر",
+    "menu": {
+      "accountAria": "قائمة الحساب",
+      "logout": "تسجيل الخروج",
+      "loggingOut": "جار تسجيل الخروج...",
+      "logoutBlockedCart": "يجب إفراغ سلة الكاشير قبل تسجيل الخروج.",
+      "logoutCloseFailed": "تعذر إغلاق الوردية قبل تسجيل الخروج."
+    },
+    "role": {
+      "ownerAdmin": "المالك",
+      "manager": "مدير",
+      "cashier": "كاشير"
+    }
+  },
+  "common": {
+    "loadingSession": "جار تحميل الجلسة..."
+  },
+  "pagination": {
+    "of": "من أصل",
+    "page": "صفحة"
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "header": {
+    "section": "لوحة العمليات اللوجستية",
+    "title": "المخزون",
+    "titleSuffix": "الحالة",
+    "addProduct": "إضافة منتج"
+  },
+  "kpi": {
+    "totalSkus": "إجمالي الأصناف",
+    "totalValue": "القيمة الإجمالية",
+    "lowStockAlerts": "تنبيهات المخزون المنخفض",
+    "outOfStock": "غير متوفر",
+    "valueMeta": "متوسط 24 ألف $",
+    "alertsMeta": "حرج",
+    "outOfStockMeta": "8 أصناف"
+  },
+  "filters": {
+    "searchPlaceholder": "فلترة بالاسم أو المورد أو الباركود...",
+    "categoryAll": "الفئة: الكل",
+    "supplierAll": "المورد: الكل",
+    "statusActive": "الحالة: نشط",
+    "filterAria": "تصفية",
+    "exportAria": "تصدير"
+  },
+  "table": {
+    "productSku": "المنتج ورمز SKU",
+    "category": "الفئة",
+    "stockQty": "كمية المخزون",
+    "status": "الحالة",
+    "priceCost": "السعر / التكلفة",
+    "sku": "SKU",
+    "batch": "الدفعة",
+    "cost": "التكلفة"
+  },
+  "bulk": {
+    "itemsSelected": "عناصر محددة",
+    "add": "إضافة",
+    "removeStock": "سحب",
+    "edit": "تعديل",
+    "ship": "شحن",
+    "label": "وسم",
+    "audit": "تدقيق",
+    "delete": "حذف",
+    "closeAria": "مسح التحديد"
+  },
+  "statusValues": {
+    "inStock": "متوفر",
+    "lowStock": "مخزون منخفض",
+    "outOfStock": "غير متوفر"
+  },
+  "addProduct": {
+    "title": "إضافة منتج",
+    "description": "أنشئ عنصر مخزون جديد لتتبع الكميات.",
+    "editTitle": "تعديل المنتج",
+    "editDescription": "حدّث تفاصيل عنصر المخزون المحدد.",
+    "sections": {
+      "basic": "البيانات الأساسية",
+      "inventory": "المخزون",
+      "pricing": "التسعير"
+    },
+    "fields": {
+      "name": {
+        "label": "الاسم",
+        "placeholder": "مثال: موز عضوي"
+      },
+      "category": {
+        "label": "الفئة",
+        "placeholder": "اختر الفئة"
+      },
+      "barcode": {
+        "label": "الباركود",
+        "placeholder": "امسح أو اكتب الباركود"
+      },
+      "sku": {
+        "label": "رمز SKU",
+        "placeholder": "رمز SKU يتم توليده تلقائيا",
+        "helper": "يمكنك تعديل رمز SKU قبل الحفظ."
+      },
+      "startingAmount": {
+        "label": "الكمية الابتدائية",
+        "placeholder": "0"
+      },
+      "unit": {
+        "label": "الوحدة",
+        "placeholder": "اختر الوحدة"
+      },
+      "costPrice": {
+        "label": "سعر التكلفة",
+        "placeholder": "0.00"
+      },
+      "sellingPrice": {
+        "label": "سعر البيع",
+        "placeholder": "0.00"
+      },
+      "taxEnabled": {
+        "label": "الضريبة / القيمة المضافة",
+        "helper": "فعّلها لمعاينة السعر شاملا الضريبة.",
+        "caption": "تطبيق نسبة الضريبة"
+      },
+      "taxPercentage": {
+        "label": "نسبة الضريبة",
+        "placeholder": "0"
+      },
+      "totalSellingPrice": {
+        "label": "إجمالي سعر البيع",
+        "estimateHint": "هذه قيمة تقديرية فقط. حساب الخادم هو النهائي."
+      }
+    },
+    "options": {
+      "category": {
+        "freshProduce": "منتجات طازجة",
+        "dairyEggs": "ألبان وبيض",
+        "beverages": "مشروبات",
+        "frozenFoods": "أغذية مجمدة",
+        "pantry": "تموين",
+        "meatSeafood": "لحوم ومأكولات بحرية"
+      },
+      "unit": {
+        "units": "وحدات",
+        "lbs": "رطل",
+        "kgs": "كيلوغرام",
+        "liters": "لتر"
+      }
+    },
+    "actions": {
+      "cancel": "إلغاء",
+      "submit": "حفظ المنتج",
+      "update": "تحديث المنتج"
+    },
+    "messages": {
+      "createSuccessTitle": "تم إنشاء المنتج",
+      "createSuccessDescription": "تم إنشاء المنتج بنجاح.",
+      "updateSuccessTitle": "تم تحديث المنتج",
+      "updateSuccessDescription": "تم تحديث المنتج بنجاح."
+    },
+    "validation": {
+      "nameRequired": "اسم المنتج مطلوب.",
+      "categoryRequired": "الفئة مطلوبة.",
+      "startingAmountInvalid": "يجب أن تكون الكمية الابتدائية 0 أو أكثر.",
+      "costPriceInvalid": "يجب أن يكون سعر التكلفة 0 أو أكثر.",
+      "sellingPriceInvalid": "يجب أن يكون سعر البيع 0 أو أكثر.",
+      "taxPercentageInvalid": "يجب أن تكون نسبة الضريبة بين 0 و100."
+    }
+  },
+  "addStock": {
+    "title": "إضافة مخزون",
+    "description": "سجل الكمية الواردة وسعر الشراء الأخير.",
+    "currentStock": "المخزون الحالي",
+    "noSelection": "لا يوجد عنصر مخزون محدد.",
+    "fields": {
+      "quantityAdded": {
+        "label": "الكمية المضافة",
+        "placeholder": "0"
+      },
+      "purchasePrice": {
+        "label": "سعر الشراء",
+        "placeholder": "0.00"
+      }
+    },
+    "actions": {
+      "cancel": "إلغاء",
+      "submit": "تسجيل الحركة"
+    },
+    "validation": {
+      "quantityRequired": "يجب أن تكون الكمية أكبر من 0.",
+      "purchasePriceInvalid": "يجب أن يكون سعر الشراء 0 أو أكثر."
+    },
+    "messages": {
+      "successTitle": "تم تحديث المخزون",
+      "successDescription": "تمت إضافة المخزون بنجاح."
+    }
+  },
+  "removeStock": {
+    "title": "سحب من المخزون",
+    "description": "سجل الكمية الخارجة من المخزون الحالي.",
+    "currentStock": "المخزون الحالي",
+    "noSelection": "لا يوجد عنصر مخزون محدد.",
+    "fields": {
+      "quantityRemoved": {
+        "label": "الكمية المراد سحبها",
+        "placeholder": "0"
+      }
+    },
+    "actions": {
+      "cancel": "إلغاء",
+      "submit": "تأكيد السحب"
+    },
+    "validation": {
+      "quantityRequired": "يجب أن تكون الكمية أكبر من 0.",
+      "quantityExceedsStock": "لا يمكن سحب كمية أكبر من المخزون الحالي."
+    },
+    "messages": {
+      "successTitle": "تم تحديث المخزون",
+      "successDescription": "تم سحب الكمية من المخزون بنجاح."
+    }
+  },
+  "categories": {
+    "header": {
+      "title": "الفئات",
+      "subtitle": "إدارة هيكل الفئات والمجموعات المؤرشفة."
+    },
+    "actions": {
+      "addCategory": "إضافة فئة",
+      "edit": "تعديل",
+      "archive": "أرشفة",
+      "restore": "استعادة",
+      "inspect": "فحص"
+    },
+    "tabs": {
+      "active": "الفئات النشطة",
+      "archived": "المؤرشفة"
+    },
+    "stats": {
+      "activeCount": "إجمالي النشط",
+      "archivedCount": "المجموعات المؤرشفة"
+    },
+    "filters": {
+      "searchPlaceholder": "ابحث عن فئات...",
+      "allParents": "جميع الفئات الرئيسية"
+    },
+    "table": {
+      "name": "اسم الفئة",
+      "code": "الرمز",
+      "parent": "الفئة الرئيسية",
+      "products": "المنتجات",
+      "updatedAt": "تاريخ التحديث",
+      "archivedAt": "تاريخ الأرشفة",
+      "productsCount": "{{count}} عنصر"
+    },
+    "drawer": {
+      "addTitle": "إضافة فئة",
+      "editTitle": "تعديل فئة",
+      "description": "تهيئة تفاصيل الفئة وهيكلها التنظيمي.",
+      "cancel": "إلغاء",
+      "save": "حفظ الفئة",
+      "fields": {
+        "name": "الاسم",
+        "code": "الرمز",
+        "parent": "الفئة الرئيسية"
+      },
+      "validation": {
+        "nameRequired": "الاسم مطلوب.",
+        "codeRequired": "الرمز مطلوب."
+      }
+    },
+    "modals": {
+      "archiveTitle": "أرشفة فئة",
+      "archiveDesc": "اختر كيفية التعامل مع المنتجات النشطة في هذه الفئة.",
+      "parentBlockedHint": "تحتوي هذه الفئة على {{count}} فئات فرعية نشطة. أرشف الفئات الفرعية أولا قبل أرشفة الفئة الرئيسية.",
+      "optUnassigned": "نقل المنتجات إلى غير مصنف",
+      "optArchiveAll": "أرشفة الفئة والمنتجات معاً",
+      "cancel": "إلغاء",
+      "confirmArchive": "تأكيد الأرشفة",
+      "restoreTitle": "استعادة الفئة",
+      "restoreDesc": "سيتم استعادة هذه الفئة والمنتجات المرتبطة بها إلى المخزون النشط.",
+      "confirmRestore": "استعادة"
+    },
+    "messages": {
+      "fetchError": "تعذر تحميل الفئات.",
+      "saveSuccess": "تم حفظ الفئة بنجاح.",
+      "saveError": "تعذر حفظ الفئة.",
+      "archiveSuccess": "تم أرشفة الفئة.",
+      "archiveBlockedBySubcategories": "لا يمكن أرشفة هذه الفئة طالما تحتوي على فئات فرعية نشطة.",
+      "archiveError": "تعذر أرشفة الفئة.",
+      "restoreSuccess": "تم استعادة الفئة.",
+      "restoreError": "تعذر استعادة الفئة.",
+      "permissionDenied": "ليس لديك صلاحية تعديل الفئات."
+    },
+    "card": {
+      "edit": "تعديل",
+      "archive": "أرشفة",
+      "items": "{{count}} عناصر",
+      "subcategories": "{{count}} فئة فرعية",
+      "more": "أكثر {{count}}+"
+    },
+    "sidebar": {
+      "view": "طريقة العرض"
+    },
+    "drillDown": {
+      "subcategories": "الفئات الفرعية",
+      "noSubs": "لا توجد فئات فرعية."
+    },
+    "main": {
+      "noCategories": "لا توجد فئات نشطة."
+    },
+    "archived": {
+      "noArchived": "لا توجد فئات مؤرشفة."
+    }
+  }
+}
