@@ -1,4 +1,4 @@
-# O2 Supermarket System
+# O2mation Supermarket System
 
 O2 Supermarket System is a point-of-sale and inventory management application with a Flask backend, a React frontend, and an optional desktop launcher built with pywebview.
 
